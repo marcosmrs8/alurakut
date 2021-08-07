@@ -1,5 +1,6 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import {AlurakutStyles} from '../src/lib/AluraKutCommons';
+import img from '../src/images/fundo_alura.jpg';
 
 const GlobalStyle = createGlobalStyle`
 /* Reset CSS*/
@@ -10,7 +11,8 @@ const GlobalStyle = createGlobalStyle`
 }
 
   body {
-    background-color: #d9e6f6;
+    //background-color: #d9e6f6;
+    background-image: url("https://i.pinimg.com/originals/c4/f2/d5/c4f2d5fed2e8050aab826020cd3cb8d5.jpg");
     font-family: sans-serif;
   }
 

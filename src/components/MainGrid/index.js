@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const MainGrid = styled.main`
+  opacity: 95%;
   width: 100%;
   //display: grid;
   grid-gap: 10px;
